@@ -77,7 +77,7 @@ const Projet = () => {
         </div>
       </div>
       <div className="projet">
-        <h1 className="titre">Site E-commerce </h1>
+        <h1 className="titre">Site Vitrine </h1>
         <img src={Projet3} alt="SiteVitrine" className="projet-img" />
         <p>
           Projet d'un site web vitrine pour un cabinet médical dévelopé en utilisant JavaScript, React, Tailwind. Le site répond à un besoin de modernisation du précédent site web du cabinet.
