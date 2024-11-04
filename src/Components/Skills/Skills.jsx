@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Skills.css";
 import Node from "../../assets/node.png";
-import Ts from "../../assets/TypeScript.png";
 import Sass from "../../assets/Sass.png";
 import express from "../../assets/express.svg";
 import mysql from "../../assets/mysql.png";
@@ -42,12 +41,6 @@ const Skills = () => {
                 alt="React Logo"
                 className="logo"
               />
-            </h3>
-          </li>
-          <li>
-            <h3>
-              - TypeScript
-              <img src={Ts} alt="TypeScript Logo" className="logo" />
             </h3>
           </li>
           <li>
@@ -129,26 +122,6 @@ const Skills = () => {
           <li>
             <h3>
               - MySQL <img src={mysql} alt="Express logo" className="logo" />
-            </h3>
-          </li>
-          <li>
-            <h3>
-              - Python{" "}
-              <img
-                src="https://simpleicons.org/icons/python.svg"
-                alt="Python Logo"
-                className="logo"
-              />
-            </h3>
-          </li>
-          <li>
-            <h3>
-              - Django{" "}
-              <img
-                src="https://simpleicons.org/icons/django.svg"
-                alt="Django Logo"
-                className="logo"
-              />
             </h3>
           </li>
         </ul>

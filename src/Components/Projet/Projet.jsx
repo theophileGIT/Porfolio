@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import "./Projet.css";
 import Projet1 from "../../assets/Projet-1.png";
 import Projet2 from "../../assets/Projet-2.png";
+import Projet3 from "../../assets/Projet-3.png";
 import icon_github from "../../assets/icon-github.png";
 import icon_domaine from "../../assets/icon-domaine.png";
 
@@ -53,7 +54,7 @@ const Projet = () => {
         <img src={Projet1} alt="Ecommerce" className="projet-img" />
         <p>
           Projet e-commerce/vitrine de vente de matcha  développé avec une stack composée de
-          JavaScript, NodeJs, Reacr, MySQL, API, et SASS.
+          JavaScript, NodeJs, React, MySQL, API, et SASS.
           Intégration complète de la gestion des utilisateurs, de
           l'authentification sécurisée et de la gestion de la base de données.
         </p>
@@ -63,11 +64,35 @@ const Projet = () => {
             className="gray-link"
             target={"_blank"}
           >
-             <img src={icon_domaine} alt="" className="img" />
+            <img src={icon_domaine} alt="" className="img" />
 
           </a>
           <a
             href="https://github.com/theophileGIT/Kaishi-projet"
+            className="black-link"
+            target={"__blank"}
+          >
+            <img src={icon_github} alt="" className="img" />
+          </a>
+        </div>
+      </div>
+      <div className="projet">
+        <h1 className="titre">Site E-commerce </h1>
+        <img src={Projet3} alt="SiteVitrine" className="projet-img" />
+        <p>
+          Projet d'un site web vitrine pour un cabinet médical dévelopé en utilisant JavaScript, React, Tailwind. Le site répond à un besoin de modernisation du précédent site web du cabinet.
+        </p>
+        <div className="links">
+          <a
+            href="https://medical-website-plum.vercel.app/"
+            className="gray-link"
+            target={"_blank"}
+          >
+            <img src={icon_domaine} alt="" className="img" />
+
+          </a>
+          <a
+            href="https://github.com/theophileGIT/MedicalWebsite"
             className="black-link"
             target={"__blank"}
           >
