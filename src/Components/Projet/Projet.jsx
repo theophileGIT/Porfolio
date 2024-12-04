@@ -3,6 +3,7 @@ import "./Projet.css";
 import Projet1 from "../../assets/Projet-1.png";
 import Projet2 from "../../assets/Projet-2.png";
 import Projet3 from "../../assets/Projet-3.png";
+import Projet4 from "../../assets/Projet-4.png";
 import icon_github from "../../assets/icon-github.png";
 import icon_domaine from "../../assets/icon-domaine.png";
 
@@ -93,6 +94,30 @@ const Projet = () => {
           </a>
           <a
             href="https://github.com/theophileGIT/MedicalWebsite"
+            className="black-link"
+            target={"__blank"}
+          >
+            <img src={icon_github} alt="" className="img" />
+          </a>
+        </div>
+      </div>
+      <div className="projet">
+        <h1 className="titre"> Reconstitution Flappy bird</h1>
+        <img src={Projet4} alt="SiteVitrine" className="projet-img" />
+        <p>
+          Petit projet de jeu reconstituant un jeu iconique sur mobile.
+        </p>
+        <div className="links">
+          <a
+            href="https://medical-website-plum.vercel.app/"
+            className="gray-link"
+            target={"_blank"}
+          >
+            <img src={icon_domaine} alt="" className="img" />
+
+          </a>
+          <a
+            href="https://github.com/theophileGIT/Fappy-bird"
             className="black-link"
             target={"__blank"}
           >
