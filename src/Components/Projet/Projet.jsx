@@ -109,7 +109,7 @@ const Projet = () => {
         </p>
         <div className="links">
           <a
-            href="https://medical-website-plum.vercel.app/"
+            href="/"
             className="gray-link"
             target={"_blank"}
           >
